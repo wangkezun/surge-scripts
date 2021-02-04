@@ -1,0 +1,12 @@
+#!name=adobe
+#!desc=adobe
+#!system=ios
+
+
+[MITM]
+hostname = %APPEND% lcs-mobile-cops.adobe.io, photos.adobe.io
+
+[Script]
+lightroom = type=http-response,pattern=^https://photos.adobe.io/v2/accounts, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/wangkezun/surge-scripts/master/lightroom.js?token=AAW7SEWGY63TM3FTHJMVT5DADOM5O
+photoshop = tyoe=http-response,pattern=^https://lcs-mobile-cops.adobe.io/mobile_profile/nul/v1, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/wangkezun/surge-scripts/master/photoshop.js?token=AAW7SEWMEKDQWZU5SUIAUWTADONF4
+
