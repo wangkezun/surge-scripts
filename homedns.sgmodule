@@ -1,0 +1,10 @@
+#!name=home-dns
+#!desc=home-dns
+#!system=ios
+
+[General]
+dns-server=192.168.50.5
+
+
+
+
