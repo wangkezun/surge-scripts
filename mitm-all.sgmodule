@@ -1,0 +1,10 @@
+#!name=MITM-ALL
+#!desc=mitm all 
+
+
+[MITM]
+host = *
+
+
+
+
