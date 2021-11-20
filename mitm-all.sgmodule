@@ -3,7 +3,7 @@
 
 
 [MITM]
-host = *
+hostname = -*.apple.com, -*.icloud.com, -*.mzstatic.com, -*.crashlytics.com, -*.facebook.com, -*.instagram.com, *
 
 
 
