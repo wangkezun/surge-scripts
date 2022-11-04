@@ -1,0 +1,8 @@
+# > Windows Server Update Services
+DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
+DOMAIN-SUFFIX,update.microsoft.com
+DOMAIN-SUFFIX,windowsupdate.com
+DOMAIN-SUFFIX,windowsupdate.microsoft.com
+DOMAIN,download.microsoft.com
+DOMAIN,wustat.windows.com
+DOMAIN,ntservicepack.microsoft.com
